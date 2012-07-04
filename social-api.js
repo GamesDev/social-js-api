@@ -45,9 +45,9 @@ var SocialApiWrapper = function(driver, params, callback) {
 
 	var driverNames = {
 		VkSocialApi: ['vk', 'vkontakte'],
-		MmSocialApi: ['mm', 'mail', 'mir', 'mailru'],
+		MmSocialApi: ['mm', 'mail', 'mir', 'mailru', 'moimir'],
 		FbSocialApi: ['fb', 'facebook'],
-		OkSocialApi: ['ok', 'odnoklassniki', 'odkl']
+		OkSocialApi: ['ok', 'odnoklassniki', 'odkl', 'od']
 	};
 	/**
 	 * глобальный wrapper

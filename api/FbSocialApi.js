@@ -1,7 +1,9 @@
 var FbSocialApi = function(params, callback) {
 	var instance = this;
 
-	var apiUrl = 'http://connect.facebook.net/en_US/all.js';
+	var userLanguage = navigator.language;
+	var defaultLanguage = 'en_US';
+	var apiUrl = 'http://connect.facebook.net/'+(userLanguage||defaultLanguage)+'/all.js';
 
 	/*params = jQuery.extend({}, params);*/
 
